@@ -2206,6 +2206,36 @@
 		)
 		(uuid "0af11159-776b-4a2e-8f3a-a55bda4386eb")
 	)
+	(text "SCL"
+		(exclude_from_sim no)
+		(at 104.394 90.424 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "45ac3a69-5d96-4a4a-a1cf-f369c6f05e7b")
+	)
+	(text "Core_TX"
+		(exclude_from_sim no)
+		(at 231.902 61.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4744fc65-3300-4b62-820d-fcfe3949baa9")
+	)
+	(text "Core_RX"
+		(exclude_from_sim no)
+		(at 232.156 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6c54c95a-01ff-4450-b606-7a6d5a9996b2")
+	)
 	(text "Buzzer Output"
 		(exclude_from_sim no)
 		(at 116.84 161.29 0)
@@ -2216,6 +2246,16 @@
 			(justify left bottom)
 		)
 		(uuid "7e510c00-ab43-4423-8d95-335362ecff17")
+	)
+	(text "SDA"
+		(exclude_from_sim no)
+		(at 104.394 87.884 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cef5fc22-86da-438c-a24c-b2b4e0a33635")
 	)
 	(text "Telemetry Core"
 		(exclude_from_sim no)
@@ -2372,6 +2412,10 @@
 		(uuid "2255d96e-32ac-4757-9088-c457f2681f8a")
 	)
 	(no_connect
+		(at 101.6 87.63)
+		(uuid "2310a7dd-123f-4ad5-8762-6ba7118d3219")
+	)
+	(no_connect
 		(at 226.822 73.66)
 		(uuid "24007d56-7bd0-4c71-ada9-3614c219ec85")
 	)
@@ -2392,12 +2436,20 @@
 		(uuid "4b7f0c97-f8f3-40a5-b0ba-e4c4a1590b99")
 	)
 	(no_connect
+		(at 226.822 63.5)
+		(uuid "639cc251-4425-4c92-8752-1c320b773eb5")
+	)
+	(no_connect
 		(at 226.822 101.6)
 		(uuid "766548da-1804-4be7-b4b2-8cae80341f88")
 	)
 	(no_connect
 		(at 176.022 63.5)
 		(uuid "9a649bdf-b482-4310-828c-5e1e63f6f350")
+	)
+	(no_connect
+		(at 226.822 60.96)
+		(uuid "a73653b1-f3b7-4f5f-a664-3207a6951920")
 	)
 	(no_connect
 		(at 176.022 81.28)
@@ -2426,6 +2478,10 @@
 	(no_connect
 		(at 226.822 93.98)
 		(uuid "e650cc77-33af-439c-b599-e15309991f62")
+	)
+	(no_connect
+		(at 101.6 90.17)
+		(uuid "f77587f9-1d4c-4280-bab8-a4f11558aeb9")
 	)
 	(no_connect
 		(at 101.6 62.23)
@@ -2621,16 +2677,6 @@
 		)
 		(uuid "2d3a8fbd-cdc9-49db-b2fa-fdc2208592a8")
 	)
-	(wire
-		(pts
-			(xy 105.664 90.17) (xy 101.6 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3229d86e-66d6-4c24-be0e-06536eb31c8e")
-	)
 	(polyline
 		(pts
 			(xy 14.732 30.48) (xy 143.002 30.48)
@@ -2681,16 +2727,6 @@
 		)
 		(uuid "3a56e472-6178-4d9e-af37-10c975318414")
 	)
-	(wire
-		(pts
-			(xy 238.506 60.96) (xy 226.822 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ad1f615-4035-41a0-b436-c0d0c483e8e4")
-	)
 	(polyline
 		(pts
 			(xy 14.986 143.51) (xy 14.986 30.48)
@@ -2720,16 +2756,6 @@
 			(type default)
 		)
 		(uuid "417d2276-bf8b-4bee-93f5-5de25bc247c0")
-	)
-	(wire
-		(pts
-			(xy 105.664 87.63) (xy 101.6 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45394b32-5641-4901-a478-f147d172a9f2")
 	)
 	(wire
 		(pts
@@ -3250,16 +3276,6 @@
 			(type default)
 		)
 		(uuid "970b4369-c851-4634-9ea8-b431a6bfab3f")
-	)
-	(wire
-		(pts
-			(xy 226.822 63.5) (xy 238.506 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "974170ec-a6f6-41a4-a2be-10699607d5ac")
 	)
 	(wire
 		(pts
@@ -3961,26 +3977,6 @@
 		)
 		(uuid "029b92f4-fe08-44e0-9ebb-e0e46263a70c")
 	)
-	(label "Core_RX"
-		(at 238.506 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3b325d16-edb1-484f-a68b-e443a44d59b5")
-	)
-	(label "SCL"
-		(at 105.664 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3daea349-1e74-4ecb-b997-9d3b00eae283")
-	)
 	(label "CAN_TX"
 		(at 101.092 74.93 0)
 		(effects
@@ -3990,16 +3986,6 @@
 			(justify left bottom)
 		)
 		(uuid "429207df-6fc6-4997-9789-afb097748e76")
-	)
-	(label "SDA"
-		(at 105.664 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4ea52a4e-8b2c-4627-b6d3-56343f71192d")
 	)
 	(label "CAN_RX"
 		(at 17.78 172.212 0)
@@ -4020,16 +4006,6 @@
 			(justify left bottom)
 		)
 		(uuid "78fa16f9-0dfc-45cc-91cc-17a94f25341f")
-	)
-	(label "Core_TX"
-		(at 238.506 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "82578565-6c50-4c6f-9911-005e978d3b84")
 	)
 	(label "RTD_BUZZER"
 		(at 46.736 109.982 180)

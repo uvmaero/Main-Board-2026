@@ -28,6 +28,12 @@
 		(uuid "71e7a05d-ee8e-4f21-8fd5-4d8b97784381")
 	)
 	(junction
+		(at 80.01 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b39d0b7-3914-4300-8de9-421ea7b385a4")
+	)
+	(junction
 		(at 85.5161 169.672)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -44,6 +50,20 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9871488-ba77-42c1-a592-432aae45cbab")
+	)
+	(no_connect
+		(at 227.33 99.06)
+		(uuid "b4a62e52-c24f-43ed-8c11-9e1c87db0dc8")
+	)
+	(wire
+		(pts
+			(xy 224.282 99.06) (xy 227.33 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00941f49-85ad-4309-b5b6-2004cc53aa15")
 	)
 	(wire
 		(pts
@@ -317,7 +337,7 @@
 	)
 	(wire
 		(pts
-			(xy 75.692 111.76) (xy 91.948 111.76)
+			(xy 75.692 111.76) (xy 80.01 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1187,16 +1207,6 @@
 	)
 	(wire
 		(pts
-			(xy 145.034 80.01) (xy 189.484 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b19a640-0512-41c2-b061-5b291506755c")
-	)
-	(wire
-		(pts
 			(xy 145.034 35.814) (xy 166.624 35.814)
 		)
 		(stroke
@@ -1357,6 +1367,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 36.83) (xy 80.01 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "920c42c3-545d-4230-b7ab-a6c428d169a8")
+	)
+	(wire
+		(pts
 			(xy 29.21 83.312) (xy 29.21 146.05)
 		)
 		(stroke
@@ -1474,6 +1494,16 @@
 			(type default)
 		)
 		(uuid "9c99b0f7-1f54-4036-8313-3064cdfc679e")
+	)
+	(wire
+		(pts
+			(xy 80.01 36.83) (xy 80.01 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ea739ee-cc3f-49b0-9d1c-311cafe71e08")
 	)
 	(wire
 		(pts
@@ -1867,16 +1897,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.484 80.01) (xy 189.484 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c612c360-b081-46c9-a8ba-3b2fbab9f45a")
-	)
-	(wire
-		(pts
 			(xy 238.76 163.322) (xy 238.76 114.046)
 		)
 		(stroke
@@ -2107,16 +2127,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.484 74.93) (xy 190.754 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d95312e7-da16-40e4-b0a9-caffc7ce5fc4")
-	)
-	(wire
-		(pts
 			(xy 164.084 27.686) (xy 190.754 27.686)
 		)
 		(stroke
@@ -2134,6 +2144,16 @@
 			(type default)
 		)
 		(uuid "dc42d9a8-5d61-45af-8256-fe17fbe777fb")
+	)
+	(wire
+		(pts
+			(xy 80.01 111.76) (xy 91.948 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc494479-c0a9-41b9-8fdf-52cfbdaa56ae")
 	)
 	(wire
 		(pts
@@ -2941,26 +2961,6 @@
 				(justify left)
 			)
 		)
-		(pin "FAN_LED" input
-			(at 190.754 77.978 180)
-			(uuid "2b60c6bf-e595-4baf-943c-600306e0133f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PUMP_LED" input
-			(at 190.754 74.93 180)
-			(uuid "a5ab19df-f3a5-43b0-89a6-aef762f287ce")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "BMS_Fault" input
 			(at 224.282 112.522 0)
 			(uuid "45999cc4-43c4-44c1-b83c-054a0e9d159e")
@@ -3283,16 +3283,6 @@
 				(justify right)
 			)
 		)
-		(pin "PUMP_LED" input
-			(at 145.034 80.01 0)
-			(uuid "53306c9f-af65-4208-ae43-b0a413dc6aee")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "CAN_L" output
 			(at 145.034 130.048 0)
 			(uuid "ef4dbdad-8c56-49e9-a369-db614afecb12")
@@ -3466,16 +3456,6 @@
 		(pin "DRIVE_MODE_LED" input
 			(at 145.034 84.582 0)
 			(uuid "7c843301-0e60-4ea5-a2d1-1f31a9954884")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "FAN_LED" input
-			(at 145.034 83.058 0)
-			(uuid "e0256226-13c0-4882-87e6-9df29af48266")
 			(effects
 				(font
 					(size 1.27 1.27)

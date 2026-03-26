@@ -1501,128 +1501,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -1890,6 +1768,12 @@
 		(uuid "29ce71ca-3e2b-4e36-b928-95b2ddc33d6c")
 	)
 	(junction
+		(at 203.2 32.1393)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33dc6abc-5951-4303-84f4-ae6cc411d42f")
+	)
+	(junction
 		(at 182.88 122.682)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1912,6 +1796,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4678abaa-9a89-421d-9554-6084135dcf31")
+	)
+	(junction
+		(at 71.628 35.814)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a5b3dd0-ebe2-4930-a2bf-cbe7296c094e")
 	)
 	(junction
 		(at 237.744 140.462)
@@ -1999,6 +1889,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.628 35.814) (xy 71.628 32.1393)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "076e58e7-7b0d-4c6b-9659-00bd66b7e634")
+	)
+	(wire
+		(pts
 			(xy 53.594 57.658) (xy 46.99 57.658)
 		)
 		(stroke
@@ -2019,7 +1919,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 32.004) (xy 203.2 40.894)
+			(xy 203.2 32.004) (xy 203.2 32.1393)
 		)
 		(stroke
 			(width 0)
@@ -2106,6 +2006,16 @@
 			(type default)
 		)
 		(uuid "258dcdde-7778-45b8-8a61-e49d0430f56a")
+	)
+	(wire
+		(pts
+			(xy 203.2 32.1393) (xy 203.2 40.894)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28d6e6c5-9f71-4528-8cb6-d283affb17e0")
 	)
 	(wire
 		(pts
@@ -2417,6 +2327,16 @@
 		)
 		(uuid "80721c85-43dc-41f9-a1a7-44ef9b07e718")
 	)
+	(wire
+		(pts
+			(xy 71.628 32.1393) (xy 203.2 32.1393)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f44a27-1fac-484f-b730-55239d3a3e4e")
+	)
 	(polyline
 		(pts
 			(xy 84.582 65.278) (xy 26.162 65.278)
@@ -2626,6 +2546,16 @@
 			(type default)
 		)
 		(uuid "c756b427-44a0-4c11-8608-3cb715049609")
+	)
+	(wire
+		(pts
+			(xy 71.628 35.8489) (xy 71.628 35.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd3072f0-44fa-4293-995e-d57f84de6296")
 	)
 	(wire
 		(pts
@@ -3481,72 +3411,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 203.2 32.004 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "802b705d-7b74-4fec-8859-337e18f0baf4")
-		(property "Reference" "#PWR025"
-			(at 203.2 35.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 202.819 27.6098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 32.004 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 32.004 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 203.2 32.004 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ba612fe-c7cf-4c60-853b-1c1b31b9b885")
-		)
-		(instances
-			(project "Big Daddy"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9c1412ff-15e3-4ef7-9c9c-e6f8f725cc08"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 218.44 141.478 0)
 		(unit 1)
@@ -4394,72 +4258,6 @@
 			(project "Big Daddy"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9c1412ff-15e3-4ef7-9c9c-e6f8f725cc08"
 					(reference "F3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 71.628 35.814 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ea5e842e-aff6-458b-a847-2e549db82a93")
-		(property "Reference" "#PWR024"
-			(at 71.628 39.624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 71.247 31.4198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.628 35.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.628 35.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.628 35.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab0b1d41-e606-4825-965c-cf84660e47d3")
-		)
-		(instances
-			(project "Big Daddy"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9c1412ff-15e3-4ef7-9c9c-e6f8f725cc08"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
